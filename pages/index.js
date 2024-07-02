@@ -1,10 +1,13 @@
-import Text from "@/components/Text";
+import { AboutMe } from "@/components/AboutMe";
+import { Header } from "@/components/Header";
+import { Hero } from "@/components/Hero";
+import { Skills } from "@/components/Skills";
 
 export default function Home() {
-  return (
-    <main>
-      <Text />
-      <div>hi</div>
-    </main>
-  );
+  return <main className="">
+    <Header />
+    <Hero />
+    <AboutMe />
+    <Skills />
+  </main>;
 }
