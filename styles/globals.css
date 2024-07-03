@@ -2,3 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.hero1 {
+    width: 900px;
+    height: 200px;
+    background-color: bisque;
+}
+
+.hero2 {
+    width: 300px;
+    height: 200px;
+    background-color: floralwhite;
+}
