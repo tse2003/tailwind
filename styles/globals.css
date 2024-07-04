@@ -9,12 +9,60 @@
 
 .hero1 {
     width: 900px;
-    height: 200px;
-    background-color: bisque;
+    height: 400px;
+    /* background-color: bisque; */
 }
 
 .hero2 {
     width: 300px;
-    height: 200px;
-    background-color: floralwhite;
+    height: 400px;
+    /* background-color: floralwhite; */
+}
+
+.photoback {
+    width: 200px;
+    height: 250px;
+    background-color: #E5E7EB;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+
+.photo  {
+    width: 230px;
+    margin-top: -280px;
+    margin-left: 10px;
+}
+
+.button {
+   text-align: center;
+}
+
+.about2 {
+    width: 600px;
+    height: 650px;
+    background-color: #F9FAFB;
+}
+
+.about1 {
+    width: 600px;
+    height: 650px;
+    background-color: #F9FAFB;
+}
+
+.list {
+    list-style-type: disc;
+}
+
+.photoback2 {
+    width: 200px;
+    height: 350px;
+    background-color: #E5E7EB;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.photo2 {
+    width: 300px;
+    margin-top: -380px;
+    margin-left: 120px;
 }
