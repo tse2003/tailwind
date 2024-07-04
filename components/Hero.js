@@ -14,7 +14,7 @@ export function Hero() {
             <p className="text-lg ml-10 text-gray-600">
                 I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing)
                 exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even
-                though I have been creating web applications for over 7 years, I still love it 
+                though I have been creating web applications for over 7 years, I still love it as if it was something new.
             </p>
             <div className="flex ml-10 mt-5">
                 <IoLocationOutline size={30} />
