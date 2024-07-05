@@ -66,3 +66,24 @@
     margin-top: -380px;
     margin-left: 120px;
 }
+
+.Skills{
+    /* background-color: antiquewhite; */
+    height: 400px;
+}
+
+.experience{
+    background-color: #F9FAFB;
+    height: 1200px;
+}
+
+.experience-box{
+    background-color: white;
+    height: 200px;
+    width: 500px;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+}
+
