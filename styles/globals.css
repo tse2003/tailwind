@@ -74,7 +74,7 @@
 
 .experience{
     background-color: #F9FAFB;
-    height: 1200px;
+    height: 770px;
 }
 
 .experience-box{
@@ -89,18 +89,25 @@
 
 .sec1{
     width: 200px;
-    height: 200px;
     /* background-color: yellow; */
 }
 
 .sec2{
     width: 300px;
-    height: 200px;
     /* background-color: greenyellow; */
 }
 
 .sec3{
     width: 200px;
-    height: 200px;
     /* background-color: orange; */
+}
+
+.experience-box2{
+    background-color: white;
+    height: 130px;
+    width: 700px;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
 }

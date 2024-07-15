@@ -4,6 +4,7 @@ import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Skills } from "@/components/Skills";
 import { Work } from "@/components/Work";
+import { Touch } from "@/components/touch";
 
 export default function Home() {
   return <main className="container">
@@ -13,5 +14,6 @@ export default function Home() {
     <Skills />
     <Experience />
     <Work />
+    <Touch />
   </main>;
 }

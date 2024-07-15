@@ -46,5 +46,23 @@ export function Experience() {
                 <p  className="text-gray-700 font-bold mt-2 ml-10">Jul 2017 - Oct 2021</p>
             </div>
         </div>
+        <div className="experience-box2">
+            <div className="sec1">
+                <p className="text-green-600 font-bold text-xl ml-5 mt-2">upwork</p>
+            </div>
+            <div className="sec2">
+                <p className="font-bold mt-2 ml-5">Full Stack Developer</p>
+                <div className="ml-10 text-gray-600 text-sm mt-2">
+                <ul className="list">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div className="sec3">
+                <p  className="text-gray-700 font-bold mt-2 ml-5">Dec 2015 - May 2017</p>
+            </div>
+        </div>
     </div>;
 }
