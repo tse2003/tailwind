@@ -111,3 +111,30 @@
     margin-top: 20px;
     display: flex;
 }
+
+.work {
+    /* background-color: red; */
+    border-radius: 15px;
+    display: flex;
+    width: 850px;
+    height: 350px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.work2 {
+    width: 400px;
+    height: 350px;
+    background-color: #F9FAFB;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+
+.work3 {
+    width: 450px;
+    height: 350px;
+    background-color: rgb(96, 218, 114);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
