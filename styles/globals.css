@@ -113,13 +113,14 @@
 }
 
 .work {
-    /* background-color: red; */
+    /* background-color: goldenrod; */
     border-radius: 15px;
     display: flex;
     width: 850px;
     height: 350px;
     margin: auto;
     margin-top: 30px;
+    text-align: center;
 }
 
 .work2 {
@@ -134,7 +135,36 @@
 .work3 {
     width: 450px;
     height: 350px;
-    background-color: rgb(96, 218, 114);
+    /* background-color: rgb(96, 218, 114); */
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+.work4 {
+    width: 450px;
+    height: 350px;
+    /* background-color: rgb(96, 218, 114); */
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.work5 {
+    width: 400px;
+    height: 350px;
+    background-color: #F9FAFB;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.contact {
+    /* background-color: goldenrod; */
+    height: 60px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #F9FAFB;
+    height: 50px;
 }

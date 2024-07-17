@@ -8,7 +8,7 @@ export function Experience() {
                 Here is quick summary of my most recent experiences:
             </p>
         </div>
-        <div className="experience-box">
+        <div className="experience-box shadow-md">
             <div className="sec1">
                 <p className="text-green-600 font-bold text-xl ml-5 mt-2">upwork</p>
             </div>
@@ -27,7 +27,7 @@ export function Experience() {
                 <p  className="text-gray-700 font-bold mt-2 ml-10">Nov 2021 - Present</p>
             </div>
         </div>
-        <div className="experience-box">
+        <div className="experience-box shadow-md">
             <div className="sec1">
                 <p className="text-green-600 font-bold text-xl ml-5 mt-2">upwork</p>
             </div>
@@ -46,7 +46,7 @@ export function Experience() {
                 <p  className="text-gray-700 font-bold mt-2 ml-10">Jul 2017 - Oct 2021</p>
             </div>
         </div>
-        <div className="experience-box2">
+        <div className="experience-box2 shadow-md">
             <div className="sec1">
                 <p className="text-green-600 font-bold text-xl ml-5 mt-2">upwork</p>
             </div>
