@@ -7,13 +7,13 @@ import { Work } from "@/components/Work";
 import { Touch } from "@/components/touch";
 
 export default function Home() {
-  return <main className="container">
+  return <main className="m-auto max-w-[1200px]">
     <Header />
     <Hero />
-    <AboutMe />
+    {/* <AboutMe />
     <Skills />
     <Experience />
     <Work />
-    <Touch />
+    <Touch /> */}
   </main>;
 }

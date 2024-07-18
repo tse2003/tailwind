@@ -2,7 +2,7 @@ import { FiSun } from "react-icons/fi";
 export function Header() {
     return (
         <div className="flex justify-between">
-            <div className="h-10"><img src="SS.png"/></div>
+            <img className="" src="SS.png"/>
             <div className="flex justify-between gap-4">
                 <div className="lg:flex hidden gap-5">
                     <button>About</button>
