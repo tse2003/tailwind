@@ -10,7 +10,7 @@ export function Work() {
           Some of the noteworthy projects I have built:
         </p>
         </div>
-        <div className="work">
+        <div className="work shadow-md">
           <div className="work2">
             <img className="w-80 mt-12 ml-10" src="work.png" />
           </div>
@@ -63,7 +63,7 @@ export function Work() {
 
 
 
-        <div className="work">
+        <div className="work shadow-md">
           <div className="work4 flex flex-col items-start">
             <h1 className="ml-5 mt-5 font-bold text-xl">Fiskil</h1>
                 <p className="text-sm ml-5 mt-3 text-gray-600 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -116,7 +116,7 @@ export function Work() {
 
 
 
-        <div className="work">
+        <div className="work shadow-md">
           <div className="work2">
             <img className="w-80 mt-12 ml-10" src="work.png" />
           </div>

@@ -14,7 +14,7 @@ export function Header() {
                     <FiSun />
                 </div>
                 <div className="hidden lg:block">
-                    <button class="bg-black hover:bg-black text-white font-bold py-2 px-4 border border-blue-700 rounded">
+                    <button class="bg-black hover:bg-black text-white font-bold py-2 px-4 border border-blue-700 rounded-lg">
                         Download CV
                     </button>
                 </div>

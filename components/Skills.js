@@ -9,7 +9,7 @@ export function Skills() {
             </p>
         </div>
         <div className="ml-14">
-            <div className="flex text-center ml-14 mt-6 gap-14">
+            <div className="flex text-center mt-6 gap-16">
                 <div>
                     <img className="ml-2" src="icon-javscript.png"/>
                     <p className="text-gray-600">Javascript</p>
@@ -45,7 +45,7 @@ export function Skills() {
             </div>
         </div>
         <div className="ml-14">
-            <div className="flex text-center ml-14 mt-6 gap-14">
+            <div className="flex text-center  mt-6 gap-16">
                 <div>
                     <img className="ml-2" src="icon-postgresql.svg"/>
                     <p className="text-gray-600">PostgreSQL</p>

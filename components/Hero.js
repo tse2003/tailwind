@@ -9,20 +9,20 @@ export function Hero() {
         <div className="hero1">
             <h1 className="font-bold text-4xl ml-10 mt-10 flex gap-2">
                 Hi, I'm Sagar
-                <MdWavingHand />
+                <MdWavingHand className="text-yellow-500" />
             </h1>
-            <p className="text-lg ml-10 text-gray-600">
+            <p className="text-base ml-10 mt-2 text-gray-600">
                 I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing)
                 exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even
                 though I have been creating web applications for over 7 years, I still love it as if it was something new.
             </p>
-            <div className="flex ml-10 mt-5">
+            <div className="flex ml-10 mt-5 gap-1">
                 <IoLocationOutline size={30} />
                 <h3 className="mt-1 text-gray-600">Ahmedabad, India</h3>
             </div>
-            <div className="flex ml-10 mt-2">
-                <GoDotFill size={30} />
-                <h3 className="mt-1 text-gray-600">Available for new projects</h3>
+            <div className="flex ml-10 mt-2 gap-2">
+                <GoDotFill size={15} className="text-green-500 ml-2 mt-1" />
+                <h3 className=" text-gray-600">Available for new projects</h3>
             </div>
             <div className="flex ml-10 mt-12 gap-3">
                 <FiGithub size={30} />
