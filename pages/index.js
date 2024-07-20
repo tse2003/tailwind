@@ -10,9 +10,9 @@ export default function Home() {
   return <main className="m-auto max-w-[1200px]">
     <Header />
     <Hero />
-    {/* <AboutMe />
+    <AboutMe />
     <Skills />
-    <Experience />
+    {/* <Experience />
     <Work />
     <Touch /> */}
   </main>;

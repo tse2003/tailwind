@@ -9,11 +9,11 @@ export function Hero() {
     <div className="lg:flex">
       <div className="order-2 relative">
        
-        <div className="bg-black h-10 absolute right-0 top-0 w-10"></div>
+        {/* <div className="bg-black h-10 absolute right-0 top-0 w-10"></div> */}
         <img className="w-60 ml-20 mt-5 relative" src="Pic.png" />
       </div>
 
-      <div className="order-1 bg-yellow-400 md:w-[800px]">
+      <div className="order-1 md:w-[800px]">
         <h1 className="font-bold text-4xl mt-10 flex gap-2">
           Hi, I'm Sagar
           <MdWavingHand className="text-yellow-500" />
