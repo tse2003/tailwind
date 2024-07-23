@@ -4,16 +4,17 @@ import { GoDotFill } from "react-icons/go";
 import { FiGithub } from "react-icons/fi";
 import { FiTwitter } from "react-icons/fi";
 import { FaFigma } from "react-icons/fa";
+import Image from "next/image";
 export function Hero() {
   return (
-    <div className="lg:flex">
-      <div className="order-2 relative">
-       
-        {/* <div className="bg-black absolute object-contain w-[200px] h-[250px] mt-16 ml-36"></div> */}
-        <img className="w-60 ml-20 mt-5 relative" src="Pic.png" />
+    <div className="relative gap-4 md:flex md:flex-row-reverse">
+      <div className="px-8 md:w-[320px]">
+      <div className="order-2 bg-yellow-200 w-full aspect-[5/6] relative top-[10%] left-[10%]">
+        <Image src="/images/profile.jpg" width={300} height={300} alt="Profile" className="block w-full h-full object-cover relative bottom-[10%] right-[10%]"/>
+      </div>
       </div>
 
-      <div className="order-1 md:w-[800px]">
+      <div className="flex-1 p-4 mt-16">
         <h1 className="font-bold text-4xl mt-10 flex gap-2">
           Hi, I'm Sagar
           <MdWavingHand className="text-yellow-500" />
