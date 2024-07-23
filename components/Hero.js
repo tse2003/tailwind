@@ -8,13 +8,13 @@ import Image from "next/image";
 export function Hero() {
   return (
     <div className="relative gap-4 md:flex md:flex-row-reverse">
-      <div className="px-8 md:w-[320px]">
-      <div className="order-2 bg-yellow-200 w-full aspect-[5/6] relative top-[10%] left-[10%]">
-        <Image src="/images/profile.jpg" width={300} height={300} alt="Profile" className="block w-full h-full object-cover relative bottom-[10%] right-[10%]"/>
+      <div className="px-8 md:w-[320px] max-w-[400px] mx-auto">
+      <div className="order-2 bg-gray-200 w-full aspect-[5/6] relative md:top-[10%] md:left-[10%] mt-10">
+        <Image src="/images/Pic.png" width={300} height={300} alt="Profile" className="relative block object-cover w-[90%] md:w-full h-full bottom-[5%] md:bottom-[10%] right-[-5%] md:right-[10%]"/>
       </div>
       </div>
 
-      <div className="flex-1 p-4 mt-16">
+      <div className="flex-1 p-4">
         <h1 className="font-bold text-4xl mt-10 flex gap-2">
           Hi, I'm Sagar
           <MdWavingHand className="text-yellow-500" />
