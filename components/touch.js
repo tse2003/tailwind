@@ -8,7 +8,7 @@ import { FaRegCopyright } from "react-icons/fa6";
 import { FaHeart } from "react-icons/fa";
 export function Touch() {
     return <div>
-        <div className="button">
+        <div className="text-center">
             <button class="bg-gray-200 text-gray-600 py-2 px-4 rounded-full mt-14">
             Get in touch
             </button>
@@ -30,7 +30,7 @@ export function Touch() {
                 <p className="font-bold text-lg">+91 8980500565</p>
                 <IoCopyOutline size={30} />
             </div>
-            <div className="button mt-14">
+            <div className="text-center mt-14">
                 <p className="text-gray-600">You may also find me on these platforms!</p>
             </div>
             <div className="flex gap-3 items-center justify-center mt-2">
@@ -38,8 +38,8 @@ export function Touch() {
                 <FiTwitter size={30} />
                 <FaFigma size={30} />
             </div>
-            <div className="footer mt-20 justify-center">
-                <div className="mt-5 flex gap-1">
+            <div className="bg-gray-50 mt-20">
+                <div className="flex gap-1 justify-center p-3">
                     <FaRegCopyright size={15} className="mt-1" />
                     <p className="text-gray-600 text-sm">2023 |</p>
                     <p className="text-gray-600 text-sm underline decoration-solid">Designed</p>

@@ -14,6 +14,6 @@ export default function Home() {
     <Skills />
     <Experience />
     <Work />
-    {/* <Touch /> */}
+    <Touch />
   </main>;
 }
